@@ -10,6 +10,10 @@
 		163231EF174D2D44458E1CC0 /* libPods-JSToolLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DFBA59C3CF0BA75E0F088D4 /* libPods-JSToolLibrary.a */; };
 		BF2237A7218C3AFF0061D6CA /* Ceshi+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2237A5218C3AFF0061D6CA /* Ceshi+CoreDataClass.m */; };
 		BF2237A8218C3AFF0061D6CA /* Ceshi+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2237A6218C3AFF0061D6CA /* Ceshi+CoreDataProperties.m */; };
+		BF3E194F224B712000403A4C /* UIImage+Generate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3E1947224B712000403A4C /* UIImage+Generate.m */; };
+		BF3E1950224B712000403A4C /* UIImage+Gif.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3E194A224B712000403A4C /* UIImage+Gif.m */; };
+		BF3E1951224B712000403A4C /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3E194C224B712000403A4C /* UIImage+Rotate.m */; };
+		BF3E1952224B712000403A4C /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3E194D224B712000403A4C /* UIImage+Color.m */; };
 		BFFE6BBF2189A30F00E4AA00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE6BBE2189A30F00E4AA00 /* AppDelegate.m */; };
 		BFFE6BC22189A30F00E4AA00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE6BC12189A30F00E4AA00 /* ViewController.m */; };
 		BFFE6BC52189A30F00E4AA00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFE6BC32189A30F00E4AA00 /* Main.storyboard */; };
@@ -49,6 +53,14 @@
 		BF2237A4218C3AFF0061D6CA /* Ceshi+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ceshi+CoreDataClass.h"; sourceTree = "<group>"; };
 		BF2237A5218C3AFF0061D6CA /* Ceshi+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Ceshi+CoreDataClass.m"; sourceTree = "<group>"; };
 		BF2237A6218C3AFF0061D6CA /* Ceshi+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Ceshi+CoreDataProperties.m"; sourceTree = "<group>"; };
+		BF3E1947224B712000403A4C /* UIImage+Generate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Generate.m"; sourceTree = "<group>"; };
+		BF3E1948224B712000403A4C /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		BF3E1949224B712000403A4C /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+		BF3E194A224B712000403A4C /* UIImage+Gif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Gif.m"; sourceTree = "<group>"; };
+		BF3E194B224B712000403A4C /* UIImage+Generate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Generate.h"; sourceTree = "<group>"; };
+		BF3E194C224B712000403A4C /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		BF3E194D224B712000403A4C /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		BF3E194E224B712000403A4C /* UIImage+Gif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Gif.h"; sourceTree = "<group>"; };
 		BFFE6BBA2189A30F00E4AA00 /* JSToolLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSToolLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFFE6BBD2189A30F00E4AA00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFFE6BBE2189A30F00E4AA00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -116,6 +128,21 @@
 			path = CoreData;
 			sourceTree = "<group>";
 		};
+		BF3E1946224B712000403A4C /* Image_Category */ = {
+			isa = PBXGroup;
+			children = (
+				BF3E1948224B712000403A4C /* UIImage+Color.h */,
+				BF3E194D224B712000403A4C /* UIImage+Color.m */,
+				BF3E1949224B712000403A4C /* UIImage+Rotate.h */,
+				BF3E194C224B712000403A4C /* UIImage+Rotate.m */,
+				BF3E194B224B712000403A4C /* UIImage+Generate.h */,
+				BF3E1947224B712000403A4C /* UIImage+Generate.m */,
+				BF3E194E224B712000403A4C /* UIImage+Gif.h */,
+				BF3E194A224B712000403A4C /* UIImage+Gif.m */,
+			);
+			path = Image_Category;
+			sourceTree = "<group>";
+		};
 		BFFE6BB12189A30F00E4AA00 = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +205,7 @@
 		BFFE6BF22189A37300E4AA00 /* JSCategory */ = {
 			isa = PBXGroup;
 			children = (
+				BF3E1946224B712000403A4C /* Image_Category */,
 			);
 			path = JSCategory;
 			sourceTree = "<group>";
@@ -366,10 +394,14 @@
 			files = (
 				BFFE6BC22189A30F00E4AA00 /* ViewController.m in Sources */,
 				BFFE6BBF2189A30F00E4AA00 /* AppDelegate.m in Sources */,
+				BF3E1950224B712000403A4C /* UIImage+Gif.m in Sources */,
 				BFFE6BD02189A31100E4AA00 /* main.m in Sources */,
+				BF3E194F224B712000403A4C /* UIImage+Generate.m in Sources */,
 				BF2237A7218C3AFF0061D6CA /* Ceshi+CoreDataClass.m in Sources */,
 				BF2237A8218C3AFF0061D6CA /* Ceshi+CoreDataProperties.m in Sources */,
+				BF3E1952224B712000403A4C /* UIImage+Color.m in Sources */,
 				BFFE6BC82189A30F00E4AA00 /* JSToolLibrary.xcdatamodeld in Sources */,
+				BF3E1951224B712000403A4C /* UIImage+Rotate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
