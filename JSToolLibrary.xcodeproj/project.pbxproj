@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		163231EF174D2D44458E1CC0 /* libPods-JSToolLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DFBA59C3CF0BA75E0F088D4 /* libPods-JSToolLibrary.a */; };
-		BF2237A7218C3AFF0061D6CA /* Ceshi+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2237A5218C3AFF0061D6CA /* Ceshi+CoreDataClass.m */; };
-		BF2237A8218C3AFF0061D6CA /* Ceshi+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2237A6218C3AFF0061D6CA /* Ceshi+CoreDataProperties.m */; };
 		BF3E194F224B712000403A4C /* UIImage+Generate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3E1947224B712000403A4C /* UIImage+Generate.m */; };
 		BF3E1950224B712000403A4C /* UIImage+Gif.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3E194A224B712000403A4C /* UIImage+Gif.m */; };
 		BF3E1951224B712000403A4C /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3E194C224B712000403A4C /* UIImage+Rotate.m */; };
@@ -17,7 +15,6 @@
 		BFFE6BBF2189A30F00E4AA00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE6BBE2189A30F00E4AA00 /* AppDelegate.m */; };
 		BFFE6BC22189A30F00E4AA00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE6BC12189A30F00E4AA00 /* ViewController.m */; };
 		BFFE6BC52189A30F00E4AA00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFE6BC32189A30F00E4AA00 /* Main.storyboard */; };
-		BFFE6BC82189A30F00E4AA00 /* JSToolLibrary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFFE6BC62189A30F00E4AA00 /* JSToolLibrary.xcdatamodeld */; };
 		BFFE6BCA2189A31100E4AA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFE6BC92189A31100E4AA00 /* Assets.xcassets */; };
 		BFFE6BCD2189A31100E4AA00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFE6BCB2189A31100E4AA00 /* LaunchScreen.storyboard */; };
 		BFFE6BD02189A31100E4AA00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE6BCF2189A31100E4AA00 /* main.m */; };
@@ -49,10 +46,6 @@
 		3FCEC9D17A09201E7394CD46 /* Pods-JSToolLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSToolLibrary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSToolLibrary/Pods-JSToolLibrary.debug.xcconfig"; sourceTree = "<group>"; };
 		4EF18A9DF6A90024E1B8ACAD /* Pods-JSToolLibraryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSToolLibraryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSToolLibraryTests/Pods-JSToolLibraryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7DFBA59C3CF0BA75E0F088D4 /* libPods-JSToolLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSToolLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF2237A3218C3AFF0061D6CA /* Ceshi+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ceshi+CoreDataProperties.h"; sourceTree = "<group>"; };
-		BF2237A4218C3AFF0061D6CA /* Ceshi+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ceshi+CoreDataClass.h"; sourceTree = "<group>"; };
-		BF2237A5218C3AFF0061D6CA /* Ceshi+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Ceshi+CoreDataClass.m"; sourceTree = "<group>"; };
-		BF2237A6218C3AFF0061D6CA /* Ceshi+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Ceshi+CoreDataProperties.m"; sourceTree = "<group>"; };
 		BF3E1947224B712000403A4C /* UIImage+Generate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Generate.m"; sourceTree = "<group>"; };
 		BF3E1948224B712000403A4C /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		BF3E1949224B712000403A4C /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
@@ -67,7 +60,6 @@
 		BFFE6BC02189A30F00E4AA00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BFFE6BC12189A30F00E4AA00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BFFE6BC42189A30F00E4AA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BFFE6BC72189A30F00E4AA00 /* JSToolLibrary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JSToolLibrary.xcdatamodel; sourceTree = "<group>"; };
 		BFFE6BC92189A31100E4AA00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFFE6BCC2189A31100E4AA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFFE6BCE2189A31100E4AA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -117,17 +109,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF2237A9218C3B260061D6CA /* CoreData */ = {
-			isa = PBXGroup;
-			children = (
-				BF2237A4218C3AFF0061D6CA /* Ceshi+CoreDataClass.h */,
-				BF2237A5218C3AFF0061D6CA /* Ceshi+CoreDataClass.m */,
-				BF2237A3218C3AFF0061D6CA /* Ceshi+CoreDataProperties.h */,
-				BF2237A6218C3AFF0061D6CA /* Ceshi+CoreDataProperties.m */,
-			);
-			path = CoreData;
-			sourceTree = "<group>";
-		};
 		BF3E1946224B712000403A4C /* Image_Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,7 +127,6 @@
 		BFFE6BB12189A30F00E4AA00 = {
 			isa = PBXGroup;
 			children = (
-				BF2237A9218C3B260061D6CA /* CoreData */,
 				BFFE6BBC2189A30F00E4AA00 /* JSToolLibrary */,
 				BFFE6BD82189A31100E4AA00 /* JSToolLibraryTests */,
 				BFFE6BE32189A31200E4AA00 /* JSToolLibraryUITests */,
@@ -179,7 +159,6 @@
 				BFFE6BCB2189A31100E4AA00 /* LaunchScreen.storyboard */,
 				BFFE6BCE2189A31100E4AA00 /* Info.plist */,
 				BFFE6BCF2189A31100E4AA00 /* main.m */,
-				BFFE6BC62189A30F00E4AA00 /* JSToolLibrary.xcdatamodeld */,
 			);
 			path = JSToolLibrary;
 			sourceTree = "<group>";
@@ -397,10 +376,7 @@
 				BF3E1950224B712000403A4C /* UIImage+Gif.m in Sources */,
 				BFFE6BD02189A31100E4AA00 /* main.m in Sources */,
 				BF3E194F224B712000403A4C /* UIImage+Generate.m in Sources */,
-				BF2237A7218C3AFF0061D6CA /* Ceshi+CoreDataClass.m in Sources */,
-				BF2237A8218C3AFF0061D6CA /* Ceshi+CoreDataProperties.m in Sources */,
 				BF3E1952224B712000403A4C /* UIImage+Color.m in Sources */,
-				BFFE6BC82189A30F00E4AA00 /* JSToolLibrary.xcdatamodeld in Sources */,
 				BF3E1951224B712000403A4C /* UIImage+Rotate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -714,19 +690,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		BFFE6BC62189A30F00E4AA00 /* JSToolLibrary.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				BFFE6BC72189A30F00E4AA00 /* JSToolLibrary.xcdatamodel */,
-			);
-			currentVersion = BFFE6BC72189A30F00E4AA00 /* JSToolLibrary.xcdatamodel */;
-			path = JSToolLibrary.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = BFFE6BB22189A30F00E4AA00 /* Project object */;
 }
